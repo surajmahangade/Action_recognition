@@ -125,7 +125,7 @@ running=Detectpose("running_segmented.png")
 
 cap=cv2.VideoCapture(0)
 #walking_3
-cap = cv2.VideoCapture('walking_2.mp4')
+cap = cv2.VideoCapture('human_action_dataset/chew/AMADEUS_chew_h_nm_np1_fr_goo_7.avi')
 while(True):
     ret,frame =cap.read()
     if ret:
